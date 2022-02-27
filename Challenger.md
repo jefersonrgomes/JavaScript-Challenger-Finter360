@@ -75,12 +75,12 @@ OBS: os números nesse problema podem ser grandes, então se você está usando 
 
 Os Klingons consideram um número bonito se ele satisfaz essas duas propriedades:
 
-- é maior ou igual a 440566
-- é divisível por 3
+[x] - é maior ou igual a 440566
+[x] - é divisível por 3
 
 Ao consideramos o Texto A como uma lista de números (isto é, interpretando cada palavra como um número usando a convenção explicada acima), 
 
-[] - Notamos que existem 126 números bonitos distintos.
+[x] - Notamos que existem 126 números bonitos distintos.
 
 ### QUESTÃO - quantos números bonitos distintos existem no Texto B, 
 Resposta: 

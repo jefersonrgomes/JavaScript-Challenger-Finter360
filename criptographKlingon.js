@@ -51,8 +51,6 @@ console.log(`
 Tamanho array original: ${testeRetorno.length}
 `);
 
-//ValidandoIgualdadeTextos(txtC, testeRetorno);//
-
 //--- --- --- --- --- --- --- --- --- --- --- --- --- --- ---//
 
 // FUNÇÕES //
