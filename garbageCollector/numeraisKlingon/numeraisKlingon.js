@@ -2,9 +2,18 @@
 Mas como os Klingon escrevem números?
 Bem, no Klingon, as palavras também são números dados em base 20, 
 
-Onde cada letra é um dígito, e os dígitos são ordenados do menos significativo para o mais significativo (o inverso do nosso sistema). Ou seja, a primeira posição é a unidade, a segunda posição vale 20, a terceira vale 400, e assim por diante. Os valores das letras são dados pela ordem em que elas aparecem no alfabeto Klingon (que é diferente da nossa ordem, como vimos acima). 
+Onde 
+[ ] - cada letra é um dígito
+[ ] - os dígitos são ordenados do menos significativo para o mais significativo (o inverso do nosso sistema). 
 
-[x] Ou seja, a primeira letra do alfabeto Klingon representa o dígito 0
+Ou seja, a primeira posição é a unidade, 
+a segunda posição vale 20, 
+a terceira vale 400, e assim por diante. 
+
+Os valores das letras são dados pela ordem em que elas aparecem no alfabeto Klingon 
+(que é diferente da nossa ordem, como vimos acima). 
+
+[ ] Ou seja, a primeira letra do alfabeto Klingon representa o dígito 0
     a segunda representa o dígito 1, e assim por diante.
     Por exemplo, a palavra vwv tem o valor numérico de 4852.
 
@@ -14,8 +23,8 @@ Onde cada letra é um dígito, e os dígitos são ordenados do menos significati
 
 Os Klingons consideram um número bonito se ele satisfaz essas duas propriedades:
 
-[ ] É maior ou igual a 440566
-[ ] É divisível por 3
+[x] É maior ou igual a 440566
+[x] É divisível por 3
 
 Ao consideramos o Texto A como uma lista de números (isto é, interpretando cada palavra como um número usando a convenção explicada acima), notamos que existem 126 números bonitos distintos.
 E no Texto B, quantos números bonitos distintos existem?
@@ -28,6 +37,15 @@ Google Formulários
 
 // VARIAVEIS GERAIS //
 const alfabetoKlingon = 'k b w r q d n f x j m l v h t c g z p s'.split(' ');
+// 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+// k b w r q d n f x j m  l  v  h  t  c  g  z  p  s
+
+// v w v tem o valor numérico de 4852.
+// v = 12*400 = 4800
+// w = 2*20 = 40
+// v = 12
+//v+w+v = 4852
+
 const txtB = 'lqvxj prbf dgxv cgc wqvxbjs dbs msvtlbr'.split(' ');
 const txtA =
   'vwv rhjs vqgvcq pjdvb gjpsmc jsm zhctgvl jwgbbs mccxbmj mbspg cdhsspgx twndc pmpr bzqvnxs wnfwhcrp czj txvghq ltdtqrd plqnjsk rbsx ftc fwthpfb vdflfqs zvgbgb rxdrgkjp sbplvr tntr fbbrmxw nkxbvf rznlm jdssqdds kwq vtlfdh zrtqk ndqnq lhbmhq ghkt vsr kqlxjmdn hlrrvg dtsm hbkxjht whmfnw hwcxxj mrft xntwrhp zfh lbhchcdz fwqqqldj cjhdddn tkfscrmq jbdxmb rqj hsbm rqhqz xzftrjg rqcprpcw phlhjcm hmvwqnps hdbjlj rgnq pxbbcfwj wnbkmkvr xqhn vcsbh grb xmbhxlml gqtvjlsw plwcvdx tqgvq xcffkzm cmkfhshr zgbswzr pnbbxsht frhxmg csrcr brnfggrj wgphtk mhfz tzlgfp xfpdfhpw pzq qsqjjn vzsw csch nzgbmln rzc bzh vptms xgldndlt rdctbpfp hkjbls rvvpg jghvh dqv xxdkftl qgnrnlhk crwstts kctqjsl cdwcbph cxqxhq znjpdq brsbnk dxdlf tlvhvq rcms lwd gtxdhxkl jvmrsxz fjg kztwskq ngszspnv twgffp ntvs xbxp svtx rhpndvh kmk qvm txmgknxk dlpf wvnbn lgmnjgw msn nzwch wvkzzjfj xvwh wmslgqz fzx kfgzn gbmnnnx xrgtzxc jkprpc nwxlpbqr pnskmbgn xslxdrr hmvnxfwd mvlznjbs lzd nkhvwpd jwlspvwn fbdc qccz ppwn dwfjfprh rgjhkb tvkc pvlhvnn qvzhxdsv hxwsvt glcvbs crqsnlpp vhxxhk qmbzg nxwpfmlj mghxmtp qslnn rgbk dqrzs lvwwrk dnnbqj krcbp rpcw bgpg rfqsp xxfcwq bwlc dnvrhhc gfkzcl qpvdsp cfb lmhcc grzj cqbkq gtjrzkqq hmfcnjtd zhs rvzlch vtxk qmqr vql zpwxfmj rhpjs gcr qqmfxqv fpgp slfn bcqbwltn zbvjwc mqcwb vtmfg zvrg xbxdrc dbcm nknlpfc stnkc hqkqrlqq vbfllt svkzqttr jrhhl kkqrz vlrnzbqn lpcpp jmjmnqwj bnmnmrbh wrmvbr khqhpxhz cbwpgf wffjnk zrlslx nvjkj wdwz vgrk ztdnzg blrb tbq xzfhwn knwgqk fqzpbc pddkbdz spdv tpkndf wjvb htjjnfg dcbkws dkhz phx hnqgg chq fqrdt vfvjvjhk nbvdzrn xgl bzddqxkp kgqjfxsn nlmmslnb vsw tmwshk lrqbxdqb jlvf dzztm skxk htrh hvmscx vtf gtvhlcs cdsqqhnm ttfr shcrwqkh fwvrqs qdppk jkvw hdcrmxz lklksspg kng rspr pgl rlpdjtd bnjzqgb fmrt qjpwsmcg sgfxxd knpprkz vxp jzgtdtst tghhrf hbv hnzbfvs wzrbhdkt ncpj lfhlp fnhgkb splq lrrdz nflwl jvjdwsh qmdv bdjck wkmk mwjtkdf szdbb zsjvxx sxkftwmg qdph mqf hvd rwnck zfmcmjdl mbxtgzhz tcxcf jck fsprt mzswtb lppcbl vwrdkfbs zdmfr fgmkc jdx kfs kch jvsf fcnxx hmkzq gprl hclw zzkmm tzz chfpsxq zsnjvmv klsdcz tzv lxws fmpc zfkzxk gzhwxlxk hzmrchx xrbv wvpnz jfhpql ntwqnchk wnbrptf gfptj wmqx hdpcgrf hzsq kwzjrb gffqvwf jqqk brnkn stfdpfgc fclchmkb zgsjn qkwrxncc cfrzw nszzgp mxmgkxvg mvrwtm ftqrbpg npfqnvq hhw pzgfkkl txf xmpbnp fxxm vjqckhkc zpn tqjckk whgszgvd ttxm gdbnszk hhjfz sqdkm vqzggb qcg sqfnqttc crtlpf mlwqjxgt sffczr jgx tng jbgx vdxxxrvs fwm tcf nsjrmnp lpjppbb wksg clftm jjxlncpn tnrrmc pqls zdcvth mbrwt hcrtb lxsxfqn zclnfzv gszffz xdtvpjhs bvgqqfg mlksdv txktscz bxphb cgp qtwtnwd mpm wppgb vwm hssddc bdxxvtfn mkst qdhnr pfvbjx mxlxblj lzhcm ndzzrxdn wwhqdpqg zsqwl xgtrsvbj frwjqm vwrpqgh rpmlxxlt bsj ptl dkvrsqw mdl fxz dxnhl xjb krs fjtccn pfdbs hsvqw pbzqvs fsbh pvrcjdc fjht qwmj hxn cqzx qxkdqpj chzghzr lzf kks dqbrjbg vwzwl dtm rtghx zrqzjjv xdssrljz nxgsrkr hkv jtbblclw qzzl qkvwf cxxc rfq wxhld cljqnm dldj cjldqqbl shtd gnhpjjhf rdkf wpfsp nqcqnb kxll bsgtc dzlrx dvnfs xlwrfcwq hxd tqfxrbr svfnm dqjmmmp ltvw fjb xpxcg zkg jqqhctv zcshqzwn jtlg gmq rzhn cdzvdl gbpxd lmskl gbxkk jch jxdqjc ktlpk vjwzjmn mfdtp dcv wchmbn rqjdgpv hhrc sxrdjgvf bsgqvvvv mrd szfpkrjv ncp mml kgcpg nrthfqs hrhskq mbs kjqq btb wzjxcdb gjtx mfskzwd wfw zlqlndf xmq pktfltsk kkr kbf htczjl lkclqnrs lnvxmsk shsdr xvdnk gkqfrpw hlnfvk sjzmnfx xhdlgp wmnc bbjcsnmh qxzttrzf vppzfv cxlvr rgs twpz lskqvwz ffp vtcsh plgf btsgvh rgfgqfzp kwlr spgqpfkh snwtpwtr gbtdlfz cscvwnm bcfnbcx qmzwzq cfpwpm mrh xmktdqs mbpv zzmv vvr cnhg pcz tqrsztnh hhrxq vfklm chpwb bwvpc pbxp fzjxmtns sjlkk ltqpph gmwwtb jbqrftv kqqbz npfbkj pct glbqz lmzsv pprmv dsd tpmpk zpxwmsg mvvwmsbv jcl glwth jtg pczwpdqg knsxpsj bfcb fjtwz gznb nbhn wlj swgv sszdlff xqshpc bdb rhsj rcz lqnwmztx nqqz pmz jchqs zcvmrckj gmxrcl vsvw vhxhlp zlhlfgh jrjzsmh zbnm mbmwbflw kpfjlp zfrdfjkv ljs njc lvbgtsm zgfztg ksc zzrfnk fgm hsqgkhm qrmd zfq xwrhjp vqvsftk gxf vjftvvx mlc'.split(
@@ -74,7 +92,8 @@ function numerosBonitosKlingon(numerosKlingon) {
     let a = n >= v;
     let b = n % 3 === 0;
     let c = n % 3;
-    if (n > v && n % 3 === 0) numerosBonitos.push(numerosKlingon[x]);
+    if (n >= v && n % 3 === 0) numerosBonitos.push(numerosKlingon[x]);
+    //if (n % 3 === 0) numerosBonitos.push(numerosKlingon[x]);
   }
   return numerosBonitos;
 }
@@ -84,6 +103,35 @@ function convertendoNumeraisKlingon(
   alfaKlingon,
   numeraisKlingon
 ) {
+  /*
+    Ou seja, a primeira posição é a unidade, 
+    a segunda posição vale 20, 
+    a terceira vale 400, e assim por diante. 
+  */
+
+  // v w v tem o valor numérico de 4852.
+  // v = 12*400 = 4800 (base 3 = 400)
+  // w = 2*20 = 40
+  // v = 12
+  //v+w+v = 4852
+  /*
+    pegar o tamanho do array da frase convertida em numeral 
+
+    ex. valor do tamanho = 5
+    numero posição 0 * 80000 | position * ((tamanho - posição+1) * (10 ^ (tamanho - posição+1))
+    numero posição 1 * 6000
+    numero posição 2 * 400
+    numero posição 3 * 20
+    numero posição 4
+
+      5-1 = 4
+      4*2
+      multiplo de 2
+      multiplo de 12    
+    somar todas posições do array e atribuir valor a um novoarray.push());
+
+
+  */
   let novoArrayDeFrases = [];
   for (let i = 0; i < ArrayDefrases.length; i++) {
     let fraseArrayChar = ArrayDefrases[i].split('');
@@ -93,7 +141,7 @@ function convertendoNumeraisKlingon(
       numeraisKlingon
     );
     novoArrayDeFrases.push(Number(fraseArrayChar.join('')));
-  } 
+  }
   function ConverterAlfabeto(frase, alfaKlingon, numeraisKlingon) {
     for (let x = 0; x < frase.length; x++) {
       let f = frase[x].replace(/' '/g, '');

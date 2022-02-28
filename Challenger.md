@@ -63,9 +63,18 @@ R: Respondido na execução da função criptographKlingon
 
 ## NUMERAIS KLINGON
 ### Mas como os Klingon escrevem números?
+
 Bem, no Klingon, as palavras também são números dados em base 20, 
 
-Onde cada letra é um dígito, e os dígitos são ordenados do menos significativo para o mais significativo (o inverso do nosso sistema). Ou seja, a primeira posição é a unidade, a segunda posição vale 20, a terceira vale 400, e assim por diante. Os valores das letras são dados pela ordem em que elas aparecem no alfabeto Klingon (que é diferente da nossa ordem, como vimos acima). 
+Onde cada letra é um dígito, 
+E os dígitos são ordenados do menos significativo para o mais significativo (o inverso do nosso sistema). 
+
+Ou seja, 
+
+A primeira posição é a unidade, 
+A segunda posição vale 20, a terceira vale 400, e assim por diante. 
+
+Os valores das letras são dados pela ordem em que elas aparecem no alfabeto Klingon (que é diferente da nossa ordem, como vimos acima). 
 
 [x] - Ou seja, a primeira letra do alfabeto Klingon representa o dígito 0, a segunda representa o dígito 1, e assim por diante.
 
