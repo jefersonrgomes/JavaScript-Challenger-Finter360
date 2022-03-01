@@ -64,7 +64,7 @@ O professor preparou a lista de vocabulário para o Texto A:
 https://raw.githubusercontent.com/f360-dev/provas/master/klingon-textoA-ordenado.txt
 
 ### QUESTÃO 3 - Como seria a lista de vocabulário do Texto B?
-✔ Resposta: Respondido na execução da função criptographKlingon
+✔ Resposta: Respondido na execução da função criptographKlingon </br>
 ✒ Nota: No arquivo criptographKlingon.js, Execute a função DecifradorKinglon(txtA).totalVerbosKlingon; Execute a função DecifradorKinglon(txtA).totalVerbosKlingonPrimeiraPessoa;
 
 # 
@@ -92,8 +92,7 @@ Ao consideramos o Texto A como uma lista de números (isto é, interpretando cad
 - [x] Notamos que existem 126 números bonitos distintos.
 
 ### QUESTÃO 4 - Qquantos números bonitos distintos existem no Texto B,
-✔ Resposta: Respondido na execução da função criptographKlingon
+✔ Resposta: Respondido na execução da função criptographKlingon </br>
 ✒ Nota: No arquivo criptographKlingon.js, Execute a função DecifradorKinglon(txtA).totalVerbosKlingon; Execute a função DecifradorKinglon(txtA).totalVerbosKlingonPrimeiraPessoa;
-   
-   
+
 #
