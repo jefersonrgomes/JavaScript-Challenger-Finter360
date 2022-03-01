@@ -183,9 +183,9 @@ a terceira vale 400, e assim por diante.
     var fraseSomada = frase.reduce(function (total, numero) {
       return total + numero;
     }, 0);
-    
+
     return fraseSomada;
   }
-  console.log(novoArrayDeFrases);
+  //onsole.log(novoArrayDeFrases);
   return novoArrayDeFrases;
 }
