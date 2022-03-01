@@ -14,8 +14,8 @@
 📰 Esses pergaminhos estão no antigo e misterioso idioma Klingon. Após muitos anos de estudo, os linguistas já conhecem algumas características desse idioma.
 
 🔎 Primeiramente, as letras Klingon são classificadas em dois grupos: 
-   [x] - Tipo foo: as letras s, l, f, w e k são chamadas "letras tipo foo", 
-   [x] - Tipo bar: as demais são conhecidas como "letras tipo bar".
+- [x] Tipo foo: as letras s, l, f, w e k são chamadas "letras tipo foo", 
+- [x] Tipo bar: as demais são conhecidas como "letras tipo bar".
 
 🔎 Os linguistas descobriram que as preposições em Klingon são 
 - [x] São as palavras de 3 letras que 
@@ -39,10 +39,10 @@
 🔎 Assim, lendo o Texto A, é possível identificar 26 verbos no texto, dos quais 23 estão em primeira pessoa.
 Já no Texto B, quantos são os verbos?, E quantos verbos do Texto B estão em primeira pessoa?
 
-   [x] - os verbos sempre são palavras de 8 ou mais letras 
-   [x] - Terminam numa letra tipo foo. 
-   [x] - Se um verbo começa com uma letra tipo bar, o verbo está em primeira pessoa.
-   [x] - Assim, lendo o Texto A, é possível identificar 26 verbos no texto, dos quais 23 estão em primeira pessoa -> Testado!
+- [x] Os verbos sempre são palavras de 8 ou mais letras 
+- [x] Terminam numa letra tipo foo. 
+- [x] Se um verbo começa com uma letra tipo bar, o verbo está em primeira pessoa.
+- [x] Assim, lendo o Texto A, é possível identificar 26 verbos no texto, dos quais 23 estão em primeira pessoa -> Testado!
 
 ### QUESTÃO 2: Quantos verbos existem, e quantos são em primeira pessoa no Texto B. 
 ✔ Resposta: 30, 25 </br>
