@@ -25,7 +25,8 @@
 
 ### QUESTÃO 1 - Quantas preposições existem no Texto B, 
 ✔ Resposta: 57 </br>
-✒ Nota: No arquivo verbosKlingon.js, </br>Execute a função DecifradorKinglon(txtA).TotalPreposicoesKinglon;
+✒ Nota: No arquivo verbosKlingon.js, </br>Execute o comando JavaScript
+![image](https://user-images.githubusercontent.com/10172471/156171383-dfc2afa9-b76e-4d70-8531-96f0953fff86.png)
 
 ![image](https://user-images.githubusercontent.com/10172471/156169993-8f53b046-5a7a-4b15-85bb-6e6c5d498d67.png)
 
@@ -45,7 +46,8 @@ Já no Texto B, quantos são os verbos?, E quantos verbos do Texto B estão em p
 
 ### QUESTÃO 2: Quantos verbos existem, e quantos são em primeira pessoa no Texto B. 
 ✔ Resposta: 30, 25 </br>
-✒ Nota: No arquivo verbosKlingon.js, </br>Execute a função DecifradorKinglon(txtB).totalVerbosKlingon; </br>Execute a função DecifradorKinglon(txtB).totalVerbosKlingonPrimeiraPessoa;
+✒ Nota: No arquivo verbosKlingon.js, </br>Execute o comando JavaScriopt
+![image](https://user-images.githubusercontent.com/10172471/156171514-bdd75162-ef3c-4dca-81a7-e1bb45ddbe95.png)
 
 ![image](https://user-images.githubusercontent.com/10172471/156169993-8f53b046-5a7a-4b15-85bb-6e6c5d498d67.png)
 
@@ -67,7 +69,6 @@ kbwrqdnfxjmlvhtcgzps.
 
 ### QUESTÃO 3 - Como seria a lista de vocabulário do Texto B?
 ✔ Resposta: Respondido na execução da função criptographKlingon </br>
-✒ Nota: No arquivo criptographKlingon.js, </br>Execute a função DecifradorKinglon(txtB).totalVerbosKlingon; </br>Execute a função DecifradorKinglon(txtB).totalVerbosKlingonPrimeiraPessoa;
 
 ![image](https://user-images.githubusercontent.com/10172471/156170377-44114e83-3cc4-4529-81ae-1928812ca827.png)
 
@@ -93,8 +94,6 @@ Os Klingons consideram um número bonito se ele satisfaz essas duas propriedades
 
 ### QUESTÃO 4 - Qquantos números bonitos distintos existem no Texto B,
 ✔ Resposta: Respondido na execução da função criptographKlingon </br>
-✒ Nota: No arquivo numeraisKlingon3.js, </br>
-console.log(totalNumerosBonitosKlingon.length);
 
 ![image](https://user-images.githubusercontent.com/10172471/156170558-c66c89be-4300-42b0-9081-27f7d3163c94.png)
 
