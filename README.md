@@ -68,7 +68,7 @@ https://raw.githubusercontent.com/f360-dev/provas/master/klingon-textoA-ordenado
 kbwrqdnfxjmlvhtcgzps. 
 
 ### QUESTÃO 3 - Como seria a lista de vocabulário do Texto B?
-✔ Resposta: Respondido na execução da função criptographKlingon </br>
+✔ Resposta: https://github.com/jefersonrgomes/finter360-challenger/blob/master/Vocabul%C3%A1rio%20do%20TextoB.md
 
 ![image](https://user-images.githubusercontent.com/10172471/156170377-44114e83-3cc4-4529-81ae-1928812ca827.png)
 
