@@ -51,32 +51,14 @@ const numeraisKlingon = [];
 for (let i = 0; i < 20; i++) {
   numeraisKlingon.push(i);
 }
-/*
-  [x] Ou seja, a primeira letra do alfabeto Klingon representa o dígito 0
-      a segunda representa o dígito 1, e assim por diante.
-      Por exemplo, a palavra vwv tem o valor numérico de 4852.
-
-  [x] Os números nesse problema podem ser grandes, 
-      então se você está usando um tipo de dados de tamanho limitado, 
-      tenha cuidado com possíveis overflows.
-*/
-
-// --- --- --- --- --- --- --- --- --- --- //
-
 const numeraisK = convertendoNumeraisKlingon(
-  txtA,
+  txtB,
   alfabetoKlingon,
   numeraisKlingon
 );
 
 var totalNumerosBonitosKlingon = numerosBonitosKlingon(numeraisK);
-//totalNumerosBonitosKlingon = new Set(totalNumerosBonitosKlingon);
-//totalNumerosBonitosKlingon = [...totalNumerosBonitosKlingon];
-
 console.log(totalNumerosBonitosKlingon.length);
-
-//[x] - Notamos que existem 126 números bonitos distintos.
-// “o número x é divisível por n quando o resto é zero”.
 
 function numerosBonitosKlingon(numerosKlingon) {
   let numerosBonitos = [];
@@ -128,64 +110,11 @@ function convertendoNumeraisKlingon(
         }
       }
     }
-    console.log(frase);
-    //convertendo letraK em numeroK
-    /*
-    pegar o tamanho do array da frase convertida em numeral 
-
-    ex. valor do tamanho = 5
-    numero posição 4 letra * 80000 | position * ((tamanhoArray - posicaoArray) * (10 ^ (tamanhoArray - posicaoArray))
-    numero posição 3 letra * 6000
-    numero posição 2 * 400
-    numero posição 1 * 20
-    numero posição 0
-
-      5-1 = 4
-      4*2
-      multiplo de 2
-      multiplo de 12    
-    somar todas posições do array e atribuir valor a um novoarray.push());
-    
-    v | 12 |  position * ((tamanhoArray - posicaoArray) * (10 ^ (tamanhoArray - posicaoArray))
-    w | 2  |
-    v | 12 |  
-      
-                        base, tam-1 * 
-    valor da letra | * | (10^tam-1) * (tam-1*2)
-            v = 12 | * |    100     *   4 
-            w = 2  | * |    10      *   2
-
-    Ou seja, a primeira posição é a unidade, 
-    a segunda posição vale 20, 
-    a terceira vale 400, e assim por diante. 
-  
-
-    v w v tem o valor numérico de 4852.
-                       base, tam-1 *
-    valor da letra | * | (10^tam) * (tam*2)
-         
-          v = 12 | * |    1       *   1
-          w = 2  | * |    10      *   2
-          v = 12 | * |    100     *   4
-   
-    v+w+v = 4852
-    (taman -1) * 2
-Ou seja, a primeira posição é a unidade, 
-a segunda posição vale 20, 
-a terceira vale 400, e assim por diante. 
-
-    [x] Ou seja, a primeira letra do alfabeto Klingon representa o dígito 0
-      a segunda representa o dígito 1, e assim por diante.
-      Por exemplo, a palavra vwv tem o valor numérico de 4852.
-
-*/
-
     var fraseSomada = frase.reduce(function (total, numero) {
       return total + numero;
     }, 0);
 
     return fraseSomada;
   }
-  //onsole.log(novoArrayDeFrases);
   return novoArrayDeFrases;
 }

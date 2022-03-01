@@ -13,7 +13,7 @@ const txtC =
 //--- --- --- --- --- --- --- --- --- --- --- --- --- --- ---//
 
 // Texto Original Klingon em String //
-const textoOriginalKlingonString = txtA;
+const textoOriginalKlingonString = txtB;
 //Separando palavras em um array de Strings
 const textoKlingonEmArray = textoOriginalKlingonString.split(' ');
 //Array vazio para receber as frases ajustadas
