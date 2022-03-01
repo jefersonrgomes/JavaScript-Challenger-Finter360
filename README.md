@@ -1,4 +1,5 @@
 # CHALLENGER FINTER360
+![image](https://user-images.githubusercontent.com/10172471/156168216-9a88ecfd-6dc8-470b-8cd4-443ddc80e29c.png)
 
 # Teste de lógica de programação - F360
 
